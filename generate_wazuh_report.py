@@ -11,7 +11,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 api_url = "https://10.255.255.21"  # Replace with your server IP or domain
 endpoint = "/security/events"
 headers = {
-    'Authorization': 'Bearer eyJhbGciOiJFUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ3YXp1aCIsImF1ZCI6IldhenVoIEFQSSBSRVNUIiwibmJmIjoxNzMyNjAyNzgwLCJleHAiOjE3MzI2MDM2ODAsInN1YiI6IndhenVoIiwicnVuX2FzIjpmYWxzZSwicmJhY19yb2xlcyI6WzFdLCJyYmFjX21vZGUiOiJ3aGl0ZSJ9.ABsFfykJS4X7JaGzfG-QvuRWyb4ib6NHYBMXy_Hs3d4he-317nAQhCs37A9YCTVSSMgxeQ8CvsTWw5M1t5Ncywd3AG3U2myDQF0fJ6PFkSnJ-d6iP6W6LCo-M_wdW13ntjc0D0Kuy-L0gL3FrDVox1MzDF44XblKjqnpbTW7G59UdCMU',  # Replace with your token
+    'Authorization': 'Bearer <TOKEN> ',  # Replace with your token
     'Content-Type': 'application/json'
 }
 
